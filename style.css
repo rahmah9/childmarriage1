@@ -1,0 +1,246 @@
+*, html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1600px;
+    scroll-behavior: smooth;
+    
+}
+header{
+    background-color: #A60000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 100px;
+}
+header li{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+nav{
+    display: flex;
+    height: 100px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+}
+.intro{
+    height: 600px;
+    background-image: url(aset/pexels-abdurrahim-israfilov-537700999-32594095-fotor-20250617224615.png);
+    background-size: cover;
+    background-position-y: bottom;
+    padding: 50px;
+    gap: 20px;
+
+}
+.text1{
+    color: rgb(232, 230, 230);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(18, 17, 17, 0.916);
+    width: 630px;
+    margin-top: 90px;
+}
+
+
+.btn{
+    background-color: #A60000;
+    color: #fff;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: larger;
+}
+button:hover{
+    background-color: #555;
+    cursor: pointer;
+}
+.judul{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.tentang{
+    width: auto;
+    display: flex;
+    margin: 70px;
+    gap: 100px;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.text2{
+    display: grid;
+    justify-content: space-between;
+    height: 500px;
+}
+.tentang, h1{
+    font-size: 60px;
+    color: #A60000;
+}
+.tentang-text{
+    font-size: 30px;
+    color: #000;
+}
+.gambar{
+    width: 600px;
+    height: fit-content;
+    border-radius: 10px;
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.text3 p{
+    font-size: 30px;
+    margin-block: 20px;
+}
+.cards-wrap{
+    width: auto;
+    height: auto;
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  
+
+}
+.card{
+    width: 300px;
+    height: auto;
+    background: #dfdddd;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+.card h3{
+    margin-block: 10px;
+}
+.container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 30px;
+
+}
+.container img{
+    width: 500px;
+    height: 850px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.cards-wrap2 {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+.cards-wrap2::-webkit-scrollbar {
+  height: 8px;
+}
+
+.cards-wrap2::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.card {
+  min-width: 280px;
+  max-width: 300px;
+  scroll-snap-align: start;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h3 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.card button {
+  
+  color: rgb(9, 9, 9);
+  padding: 10px;
+  border: #A60000 solid;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.card button:hover {
+  background-color: #555;
+}
+.text4{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.data{
+    background-color: #FAEAEA;
+    margin-block: 100px;
+    padding-block: 20px;
+}
+.aksi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+.aksi img{
+    width: 500px;
+
+}
+.aksi li{
+    font-size: larger;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.aksi ul{
+    margin: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.text5{
+    width: 500px;
+}
+footer{
+    background-color: #A60000;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 100px;
+
+}
